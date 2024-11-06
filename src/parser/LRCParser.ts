@@ -21,7 +21,7 @@ export default class LRCParser extends LyricsParser<LRCType> {
             { name: 'title', regexp: /^\[ti(?:tle)?:(.*)\]$/ },
             { name: 'artist', regexp: /^\[ar(?:tist)?:(.*)\]$/ },
             { name: 'album', regexp: /^\[al(?:bum)?:(.*)\]$/ },
-            { name: 'author', regexp: /^\[(?:(?:by)|(?:au(?:thor)?)):(.*)\]$/ },
+            { name: 'author', regexp: /^\[(?:by|au(?:thor)?):(.*)\]$/ },
             { name: 'translationAuthor', regexp: /^\[ta:(.*)\]$/ },
             { name: 'version', regexp: /^\[ve(?:rsion)?:(.*)\]$/ },
             { name: 'translationVersion', regexp: /^\[tv:(.*)\]$/ },
