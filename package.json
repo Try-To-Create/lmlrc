@@ -1,23 +1,23 @@
 {
-    "name": "@trytocreate/lmlrc",
-    "version": "1.0.0",
-    "private": false,
-    "description": "A lyric parser for LMusic.",
-    "type": "module",
-    "main": "dist/index.js",
-    "keywords": [
-        "lyric",
-        "parser",
-        "lyric-parser",
-        "lmusic"
-    ],
-    "author": {
-        "name": "PlayDrinkEatCode",
-        "email": "zdj@djweb.site",
-        "url": "https://www.djweb.site"
-    },
-    "license": "MIT",
-    "scripts": {
-        "build": "tsc"
-    }
+  "name": "@trytocreate/lmlrc",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A lyric parser for LMusic.",
+  "type": "module",
+  "main": "dist/index.js",
+  "keywords": [
+    "lyric",
+    "parser",
+    "lyric-parser",
+    "lmusic"
+  ],
+  "author": {
+    "name": "PlayDrinkEatCode",
+    "email": "zdj@djweb.site",
+    "url": "https://www.djweb.site"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
 }
